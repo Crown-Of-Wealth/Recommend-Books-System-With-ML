@@ -50,3 +50,11 @@ Follow these steps to run the project locally:
    streamlit run app.py
    ```
 
+4. Open the application in your browser (usually runs on `http://localhost:8501`).
+
+---
+
+## 📊 Dataset  
+
+This application uses a dataset containing information on books, authors, genres, and user ratings. You can customize the dataset in the `data/` folder to suit your application needs.
+
