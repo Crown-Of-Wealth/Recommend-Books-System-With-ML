@@ -40,3 +40,13 @@ Follow these steps to run the project locally:
    cd book-recommender
    ```
 
+2. Install the required dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the Streamlit application:  
+   ```bash
+   streamlit run app.py
+   ```
+
