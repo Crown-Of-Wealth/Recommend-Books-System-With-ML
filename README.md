@@ -28,3 +28,15 @@ BookRecommender/
 └── setup.py              # Package setup file (if applicable)  
 ```
 
+---
+
+## 🔧 Installation  
+
+Follow these steps to run the project locally:  
+
+1. Clone your repository:  
+   ```bash
+   git clone https://github.com/your-username/your-project-name.git
+   cd book-recommender
+   ```
+
