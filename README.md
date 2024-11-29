@@ -11,3 +11,20 @@ Welcome to the **Book Recommender System**, a web application designed to sugges
 - 📊 **Data-Driven Insights**: Explore trends and recommendations using data analytics.  
 - 🎨 **User-Friendly Interface**: Simple and intuitive design powered by Streamlit.
 
+---
+
+## 📂 Project Structure  
+
+```
+BookRecommender/
+│
+├── app.py                # Main application file for Streamlit  
+├── requirements.txt      # Dependencies for the project  
+├── data/                 # Dataset folder  
+│   └── books.csv         # Dataset of books (or relevant data source)  
+├── models/               # Folder for recommendation models  
+├── utils/                # Helper functions and utilities  
+├── README.md             # Project documentation  
+└── setup.py              # Package setup file (if applicable)  
+```
+
