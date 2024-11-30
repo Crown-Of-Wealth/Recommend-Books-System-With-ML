@@ -1,0 +1,6 @@
+FIRST PROJECT EXPERIENCE
+I had series of hassles getting my environment right on VS Code, and Augustine came to my rescue.
+
+After having all set, I imported my data from Kaggle and unzipped it.
+The book recommendation system I shall create will recommend books to users based on collaborative filtering which considers user behavior and similar user interests.
+Data --> Analysis --> Preprocessing --> Clustering Model --> Web app --> Deploy to cloud --> Heroku
