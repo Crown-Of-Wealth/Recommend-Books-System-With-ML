@@ -1,6 +1,3 @@
 bookRec_env/ # type: ignore
 note.txt # type: ignore
 bookRECOMMENDER.ipynb # type: ignore
-BX-Book-Ratings.csv # type: ignore
-BX-Books.csv # type: ignore
-BX-Users.csv # type: ignore
