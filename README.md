@@ -58,3 +58,11 @@ Follow these steps to run the project locally:
 
 This application uses a dataset containing information on books, authors, genres, and user ratings. You can customize the dataset in the `data/` folder to suit your application needs.
 
+---
+
+## 🛠 Built With  
+
+- *Python*: Programming language  
+- *Streamlit*: Framework for building interactive web applications  
+- *Pandas*: Data manipulation and analysis  
+- *Scikit-Learn*: Machine learning library
