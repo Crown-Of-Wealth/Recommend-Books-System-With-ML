@@ -5,3 +5,6 @@ After successfully setting my environment, I imported my data from Kaggle and un
 The book recommendation system I shall create will recommend books to users based on collaborative filtering which considers user behavior and similar user interests.
 Process pipeline: Data --> Analysis --> Preprocessing --> Clustering Model --> Web app --> Deploy to cloud --> Heroku
 
+I converted my data from csv to dataframe, then removed unneeded columns, and renamed some columns for easier convention.
+Filtered users to those who have read more than 200 books, and filtered books to those that have 50 or more rating count.
+Created a book pivot that consists of unique user IDs and book titles.
