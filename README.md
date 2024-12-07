@@ -66,3 +66,13 @@ This application uses a dataset containing information on books, authors, genres
 - *Streamlit*: Framework for building interactive web applications  
 - *Pandas*: Data manipulation and analysis  
 - *Scikit-Learn*: Machine learning library
+
+---
+
+## 🌟 How It Works  
+
+1. Upload or interact with the book dataset.  
+2. Use the search bar or filters to find books or receive recommendations.  
+3. The system processes data and displays personalized book suggestions.  
+
+---
