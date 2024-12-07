@@ -82,3 +82,7 @@ This application uses a dataset containing information on books, authors, genres
 Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
 
 ---
+
+## 📝 Acknowledgments  
+
+- Datasets from Kaggle.
