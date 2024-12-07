@@ -76,3 +76,9 @@ This application uses a dataset containing information on books, authors, genres
 3. The system processes data and displays personalized book suggestions.  
 
 ---
+
+## 👨‍💻 Contributing  
+
+Contributions are welcome! Feel free to open issues or submit pull requests to improve the project.
+
+---
