@@ -22,7 +22,7 @@ def fetch_poster(suggestion):
         ids_index.append(ids)
 
     for idx in ids_index:
-        url = my_final_rating.iloc[idx]['image_url']
+        url = my_final_rating.iloc[idx]['url']
         poster_url.append(url)
 
     return poster_url
@@ -36,7 +36,7 @@ def recommend_books(book_name):
     poster_url = fetch_poster(suggestion)
 
     for i in range(len(suggestion[0])):
-        books = book_pivotindex[suggestion[i]]
+        books = book_pivot.index[suggestion[i]]
         for j in books:
             book_list.append(j)
 
