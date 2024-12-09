@@ -9,6 +9,14 @@ book_pivot = pickle.load(open('artifacts/book_pivot.pkl', 'rb'))
 my_final_rating = pickle.load(open('artifacts/my_final_rating.pkl', 'rb'))
 
 
+def fetch_poster(suggestion):
+    book_name = []
+    ids_index = []
+    poster_url = []
+
+    
+
+
 def recommend_books(book_name):
     book_list = []
     book_id = np.where(book_pivot.index == book_name)[0][0]
