@@ -21,6 +21,12 @@ def fetch_poster(suggestion):
         ids = np.where(my_final_rating['title'] == name)[0][0]
         ids_index.append(ids)
 
+    for idx in ids_index:
+        url = my_final_rating.iloc[idx]['image_url']
+        poster_url.append(url)
+
+    return poster_url
+
 
 def recommend_books(book_name):
     book_list = []
@@ -41,3 +47,4 @@ selected_books = st.selectbox(
 
 if st.button('Show Recommendation'):
     recommendation_books, poster_url = recommend_books(selected_books)
+    
