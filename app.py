@@ -17,6 +17,10 @@ def fetch_poster(suggestion):
     for book_id in suggestion:
         book_name.append(book_pivot.index[book_id])
         
+    for i in book_name[0]:
+        ids = np.where(my_final_rating['title'] == name)[0][0]
+        ids_index.append(ids)
+
 
 def recommend_books(book_name):
     book_list = []
