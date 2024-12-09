@@ -14,8 +14,9 @@ def fetch_poster(suggestion):
     ids_index = []
     poster_url = []
 
-    
-
+    for book_id in suggestion:
+        book_name.append(book_pivot.index[book_id])
+        
 
 def recommend_books(book_name):
     book_list = []
