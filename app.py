@@ -52,4 +52,20 @@ if st.button('Show Recommendation'):
     with col1:
         st.text(recommendation_books[1])
         st.image(poster_url[1])
+
+    with col2:
+        st.text(recommendation_books[2])
+        st.image(poster_url[2])
+        
+    with col3:
+        st.text(recommendation_books[3])
+        st.image(poster_url[3])
+        
+    with col4:
+        st.text(recommendation_books[4])
+        st.image(poster_url[4])
+        
+    with col5:
+        st.text(recommendation_books[5])
+        st.image(poster_url[5])
         
