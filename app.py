@@ -16,6 +16,13 @@ def recommend_books(book_name):
 
     poster_url = fetch_poster(suggestion)
 
+    for i in range(len(suggestion[0])):
+        books = book_pivotindex[suggestion[i]]
+        for j in books:
+            book_list.append(j)
+
+    return book_list
+
 selected_books = st.selectbox(
     "Type or select a book", books_name)
 
